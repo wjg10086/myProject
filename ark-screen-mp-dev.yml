@@ -1,0 +1,5 @@
+#负载均衡超时配置
+ribbon:
+    ReadTimeout: 50000
+    ConnectTimeout: 50000
+    ServerListRefreshInterval: 3000
